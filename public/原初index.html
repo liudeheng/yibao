@@ -3,22 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <script>
-      // document.addEventListener('DOMContentLoaded', function() {
-      //     document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
-      // })
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+      })
  var openid = "<?= Yii::$app->user->identity->wx_openid ?>";
     if(openid){
       console.log(openid)
-      openid = 'or_WGuE5Ljd-iJCfR5zqiVUxsSlQ';
       sessionStorage.setItem('openId',openid)
     }else{
       console.log('获取不到openid',openid)
 }
-  </script>
+  </script> -->
     <style>
     body,html{
       height: 100%;
